@@ -8,7 +8,7 @@ app.get('/', function(req, res) {
         console.log("starting ...");
         const browser = await puppeteer.launch();
         const page = await browser.newPage();
-        await page.goto('https://cnhv.co/1f91s');
+        await page.goto('https://mng1.azurewebsites.net');
         await page.waitFor(5000);
         await browser.close();
         console.log("stopping ...")
