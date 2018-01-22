@@ -7,6 +7,7 @@
     "url": "git+https://github.com/carlwoodhouse/ch-client.git"
   },
   "dependencies": {
+    "express": "^4.16.2",
     "puppeteer": "^1.0.0"
   }
 }
