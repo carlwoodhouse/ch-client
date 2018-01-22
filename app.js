@@ -9,13 +9,13 @@ app.get('/', function(req, res) {
         const browser = await puppeteer.launch();
         const page = await browser.newPage();
         await page.goto('https://cnhv.co/1f91s');
-        await page.waitFor(60000);
+        await page.waitFor(5000);
         await browser.close();
         console.log("stopping ...")
       })();
 
     // ejs render automatically looks in the views folder
-    res.send('Running ...s');
+    res.send('Running ...');
 });
 
 
